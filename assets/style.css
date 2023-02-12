@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+:root { --border-color: rgb(255, 255, 255);
+
+}
+
+body{
+    background-color: rgb(245,245,245);
+    
+}
+
+
+nav{
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+nav > .nav-section {
+    padding:3rem 2rem;
+    display:flex;
+    gap: 1rem;   
+    
+
+}
+.nav-section{
+    text-decoration: none;
+}
+
+
+#nav-social-section,
+#nav-email-section {
+    flex-basis:calc(100% / 2);
+    font-size: 150%;
+    text-decoration: none;
+    transform: translateY(-40%);
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+#nav-email-section {
+    flex-direction: row-reverse;  
+    
+    text-decoration: none;
+    color: #ffffff;
+
+
+
+}
+
+.email-link {
+    color: rgb(85,26,139);
+    text-decoration: none;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+
+.title-card{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 30px;
+
+}
+
+.toon-head{
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-card h1{
+    background-color: transparent;
+    display: flex;
+    color: rgb(85,26,139);
+
+}
+
+.title-card h2{ 
+    background-color: transparent;
+
+}
+
+.toon-head {
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(-10%, -10%);
+    /* flex-direction:column; */
+    /* transform: translate(25%, -10%); */
+
+
+}
+
+.toon-head img{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-bottom: inset;
+    border-radius: 200px;
+    
+}
+
+.title-card {
+    display: flex;
+    margin-right: 50%;
+    margin-left: 10%;
+    flex-direction: column;
+    align-items:flex-start;
+    transform: translateY(-60%);
+
+
+    
+
+}
+
+.title-card > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+
+}
+.title-card > h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    transform: translate(0%,-100%);
+
+}
+
+.fa_brands {
+    text-decoration: none;
+}
+
+.title-card h2::after {
+    content: "";
+    width: 3px;
+    height: 20px;
+    background: rgb(85,26,139);
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+
+@keyframes cursor-blink {
+    0%{
+        opacity: 0;
+    }
+}
