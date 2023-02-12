@@ -88,6 +88,8 @@ nav > .nav-section {
     display: flex;
     color: rgb(85,26,139);
     font-weight: 300;
+    text-shadow: 2px 2px 8px #74747494;
+
 
 }
 
@@ -101,7 +103,7 @@ nav > .nav-section {
     align-items: center;
     gap: 4px;
     transform: translate(0%,-100%);
-    
+    text-shadow: 2px 2px 8px #74747494;
 }
 
 .title-card p {
@@ -113,6 +115,7 @@ nav > .nav-section {
     letter-spacing: 0.2rem;
     font-size: 15px;
     flex-direction: row ;
+    text-shadow: 2px 2px 8px #74747494;
 }
 
 .toon-head {
@@ -149,7 +152,7 @@ nav > .nav-section {
 }
 
 #l7 {
-    color:rgb(1, 1, 179);
+    color:rgb(5, 180, 255);
     
 }
 
@@ -188,21 +191,46 @@ nav > .nav-section {
     align-items: center;
 }
 
-#about-me-text {
+#about-me-arrow-text {
     font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-
+    
 }
 
-.bio-screen{
+
+
+.about-me-box{
     font-family: 'Roboto', sans-serif;
-    width: 50%;
-    display: flex;
+    width: 40vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    transform: translateX(55vw);
+    height: 50vh;
+    background-color: rgba(84, 26, 139, 0.127);
+    border-radius: 25px;
 
 }
 
+.about-me-title {
+    color: rgb(85,26,139);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+.about-me-text {
+    color: rgb(85,26,139);
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
 
 @keyframes cursor-blink {
