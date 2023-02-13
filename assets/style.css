@@ -211,14 +211,15 @@ nav > .nav-section {
 
 .about-me-box{
     font-family: 'Roboto', sans-serif;
-    width: 40vw;
+    width: 85vw;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 50vh;
-    background-color: rgba(84, 26, 139, 0.127);
-    border-radius: 25px;
+
+    
+    
 
 }
 
@@ -269,7 +270,7 @@ nav > .nav-section {
     align-items: center;
     flex-direction: column;
     height: 75vh;
-    background-color: rgba(84, 26, 139, 0.127);
+    /* background-color: rgba(84, 26, 139, 0.127); */
     border-radius: 25px;
     
 }
