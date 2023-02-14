@@ -187,6 +187,7 @@ nav > .social-nav {
 
 .down-arrow {
     display: flex;
+    color: rgb(85,26,139);
     text-decoration: none;
     flex-wrap: wrap;
     flex-direction: column;
@@ -338,7 +339,7 @@ nav > .social-nav {
     font-weight: 200;
     color: white;
     background-image: url(/assets/Prework-screenshot.png);
-    z-index: 1; /* added z-index */
+    z-index: 1; 
     background-size: contain;
 }
 
@@ -363,7 +364,7 @@ nav > .social-nav {
     color: white;
     background-size: cover;
     background-image: url(https://images.pexels.com/photos/14019519/pexels-photo-14019519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    z-index: 1; /* added z-index */
+    z-index: 1;
 }
 
 #p3:hover::before {
