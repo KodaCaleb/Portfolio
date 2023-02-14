@@ -316,7 +316,7 @@ nav > .social-nav {
     background-size: contain;
     color: white;
     z-index: 1;
-    background-image: url(../assets/Refactor-screenshot.jpg);
+    background-image: url(Refactor-screenshot.jpg);
 }
 
 #p1:hover::before {
@@ -329,7 +329,7 @@ nav > .social-nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../assets/Refactor-screenshot.jpg);
+    background-image: url(Refactor-screenshot.jpg);
     filter: blur(5px);
     z-index: -1;
 }
@@ -338,7 +338,7 @@ nav > .social-nav {
     position: relative;
     font-weight: 200;
     color: white;
-    background-image: url(../assets/Prework-screenshot.png);
+    background-image: url(Prework-screenshot.png);
     z-index: 1; 
     background-size: contain;
 }
@@ -352,7 +352,7 @@ nav > .social-nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../assets/Prework-screenshot.png);
+    background-image: url(Prework-screenshot.png);
     filter: blur(5px);
     z-index: -1;
 }
