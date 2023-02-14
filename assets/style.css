@@ -54,18 +54,16 @@ nav > .social-nav {
     text-decoration: none;
 }
 
-.toon-head{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .title-page {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-around;
+}
+
+.title-card .toon-head {
+    flex-basis: 50%;
 }
 
 .title-card{
@@ -77,9 +75,6 @@ nav > .social-nav {
     font-family: 'Roboto', sans-serif;
 }
 
-.title-card .toon-head {
-    flex-basis: 50%;
-}
 
 .title-card h1{
     background-color: transparent;
@@ -131,6 +126,8 @@ nav > .social-nav {
     justify-content: flex-end;
     transform: translate(-10%, -10%);
     position: static;
+    align-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -179,8 +176,6 @@ nav > .social-nav {
     position: absolute;
     text-decoration: none;
     color: rgb(85,26,139);
-
-
 }
 
 
@@ -199,7 +194,6 @@ nav > .social-nav {
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    
 }
 
 .bio-page{
