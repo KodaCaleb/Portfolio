@@ -9,7 +9,7 @@ body{
     overflow-x: hidden;
 }
 
-
+/* top nav styles */
 
 nav{
     display: inline-flex;
@@ -47,9 +47,13 @@ nav > .social-nav {
     flex-direction: row-reverse;  
     text-decoration: none;
     color: #ffffff;
+    
+    
+    
+}
 
-
-
+.fa_brands {
+    text-decoration: none;
 }
 
 .email-link {
@@ -57,6 +61,9 @@ nav > .social-nav {
     text-decoration: none;
 }
 
+/* top nav styles */
+
+/* main content title page styles */
 
 .title-page {
     display: flex;
@@ -162,12 +169,9 @@ nav > .social-nav {
     
 }
 
+/* main content title page styles */
 
-
-.fa_brands {
-    text-decoration: none;
-}
-
+/* bottom nav styles */
 
 .bottom-nav {
     right: auto;
@@ -181,8 +185,6 @@ nav > .social-nav {
     color: rgb(85,26,139);
 }
 
-
-
 .down-arrow {
     display: flex;
     text-decoration: none;
@@ -191,13 +193,9 @@ nav > .social-nav {
     align-items: center;
 }
 
-#about-me-arrow-text {
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-}
+/* bottom nav styles */
+
+/* bio page styles */
 
 .bio-page{
     height: 70vh;
@@ -207,8 +205,6 @@ nav > .social-nav {
     padding: 100px;
 
 }
-
-
 
 .about-me-box{
     font-family: 'Roboto', sans-serif;
@@ -240,20 +236,13 @@ nav > .social-nav {
     padding-left: 20px;
 }
 
-@keyframes cursor-blink {
-    0%{
-        opacity: 0;
-    }
-}
+/* bio page styles */
 
-.about-me-arrow-text {
-    text-decoration: none;
-}
+/* education page styles */
 
 .education-page {
     height: 100vh;
     display: flex;
-    /* margin-left: 5vw; */
     flex-direction: row;
     padding: 100px;
     justify-content: flex-start;
@@ -273,6 +262,8 @@ nav > .social-nav {
     border-radius: 25px;
     
 }
+
+
 
 .projects-page {
     height: 100vh;
