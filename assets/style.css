@@ -4,10 +4,6 @@
     text-decoration: none;
 }
 
-:root { --border-color: rgb(255, 255, 255);
-
-}
-
 body{
     background-color: rgb(245,245,245);
     overflow-x: hidden;
@@ -21,14 +17,14 @@ nav{
     
 }
 
-nav > .nav-section {
+nav > .social-nav {
     padding:3rem 2rem;
     display:flex;
     gap: 1rem;   
     
 
 }
-.nav-section{
+.social-nav{
     text-decoration: none;
 }
 
@@ -308,6 +304,8 @@ nav > .nav-section {
 
 }
 
+
+
 .p-box-container {
     font-weight: 200;
     font-size: 10px;
@@ -327,7 +325,7 @@ nav > .nav-section {
     color: rgb(85,26,139);
     height: 30vh;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
     
 }
 
