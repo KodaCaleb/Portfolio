@@ -263,7 +263,9 @@ nav > .social-nav {
     
 }
 
+/* education page styles */
 
+/* projects page styles */
 
 .projects-page {
     height: 100vh;
@@ -312,7 +314,7 @@ nav > .social-nav {
     position: relative;
     background-size: contain;
     color: white;
-    z-index: 1; /* added z-index */
+    z-index: 1;
     background-image: url(/assets/Refactor-screenshot.jpg);
 }
 
@@ -386,6 +388,10 @@ nav > .social-nav {
 
 }
 
+/* project page styles */
+
+
+
 footer {
     display: inline-flex;
     height: 30vh;
@@ -395,6 +401,8 @@ footer {
     font-weight: 100;
     color: rgb(85,26,139);
 }
+
+/* media q's  */
 
 @media screen and (max-width: 800px) {
     
