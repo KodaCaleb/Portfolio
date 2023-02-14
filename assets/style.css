@@ -27,6 +27,9 @@ nav > .social-nav {
 .social-nav{
     text-decoration: none;
 }
+.topnav{
+    height: 10vh;
+}
 
 
 #nav-social-section,
@@ -54,18 +57,16 @@ nav > .social-nav {
     text-decoration: none;
 }
 
-.toon-head{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
 .title-page {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-around;
+}
+
+.title-card .toon-head {
+    flex-basis: 50%;
 }
 
 .title-card{
@@ -77,19 +78,16 @@ nav > .social-nav {
     font-family: 'Roboto', sans-serif;
 }
 
-.title-card .toon-head {
-    flex-basis: 50%;
-}
 
 .title-card h1{
     background-color: transparent;
     color: rgb(85,26,139);
     font-weight: 300;
+    font-size: 30px;
     text-shadow: 2px 2px 8px #74747494;
     transform: translatey(2vh);
-
-
 }
+
 
 .title-card ul{ 
     background-color: transparent;
@@ -129,8 +127,10 @@ nav > .social-nav {
 .toon-head {
     display: flex;
     justify-content: flex-end;
-    transform: translate(-10%, -10%);
+    /* transform: translate(-10%, -10%); */
     position: static;
+    align-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -179,8 +179,6 @@ nav > .social-nav {
     position: absolute;
     text-decoration: none;
     color: rgb(85,26,139);
-
-
 }
 
 
@@ -199,7 +197,6 @@ nav > .social-nav {
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    
 }
 
 .bio-page{
@@ -231,7 +228,6 @@ nav > .social-nav {
     align-items: flex-start;
     justify-content: center;
     padding-bottom: 40px;
-
 }
 
 
@@ -252,8 +248,6 @@ nav > .social-nav {
 
 .about-me-arrow-text {
     text-decoration: none;
-    
-
 }
 
 .education-page {
@@ -299,17 +293,11 @@ nav > .social-nav {
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    
-
-
 }
-
-
 
 .p-box-container {
     font-weight: 200;
-    font-size: 10px;
-    color: white;
+    font-size: 20px;
     display: flex;
     text-decoration: none;
     flex-direction: row;
@@ -409,8 +397,23 @@ nav > .social-nav {
 
 footer {
     display: inline-flex;
+    height: 30vh;
     width: 100%;
     justify-content: center;
+    align-items: flex-end;
     font-weight: 100;
     color: rgb(85,26,139);
+}
+
+@media screen and (max-width: 800px) {
+    
+    
+
+    .p-box-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
