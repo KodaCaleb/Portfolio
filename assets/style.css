@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 :root { --border-color: rgb(255, 255, 255);
@@ -57,12 +58,6 @@ nav > .nav-section {
     text-decoration: none;
 }
 
-.main {
-    flex-grow: 1;
-}
-
-
-
 .toon-head{
     display: flex;
     align-content: center;
@@ -110,6 +105,20 @@ nav > .nav-section {
     align-items: center;
     gap: 4px;
     text-shadow: 2px 2px 8px #74747494;
+}
+.title-card ul::after{
+    content: "";
+    width: 3px;
+    height: 20px;
+    background: rgba(84, 26, 139, 0.533);
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+    0%{
+        opacity: 0%;
+    }
 }
 
 .title-card p {
@@ -311,6 +320,7 @@ nav > .nav-section {
 
 .proj-desc-box {
     display: flex;
+    font-family: 'Roboto', sans-serif;
     justify-content: center;
     text-decoration: none;
     width: 100%;
@@ -320,19 +330,6 @@ nav > .nav-section {
     align-content: flex-start;
     
 }
-
-
-
-
-
-/* @media (max-width: 1300px) { */
-    /* .title-card{ */
-        /* transform: translatey(5%); */
-        /* position: static; */
-        /* transform: translatex(15%); */
-
-    /* } */
-/* } */
 
 #p1 {
     position: relative;
@@ -409,4 +406,13 @@ nav > .nav-section {
 .p-box-container h1 {
     text-decoration: none;
     text-shadow: 2px 2px 8px #74747494;
+
+}
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: 100;
+    color: rgb(85,26,139);
 }
