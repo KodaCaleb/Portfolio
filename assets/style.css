@@ -7,6 +7,7 @@
 body{
     background-color: rgb(245,245,245);
     overflow-x: hidden;
+    /* padding: 2%; */
 }
 
 /* top nav styles */
@@ -77,6 +78,7 @@ nav > .social-nav {
 }
 
 .title-card{
+    padding: 4%;
     height: 600px;
     position: static;
     transform: translatey(20vh);
@@ -269,7 +271,7 @@ nav > .social-nav {
 /* projects page styles */
 
 .projects-page {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     padding: 25px;
     justify-content: flex-start;
@@ -292,6 +294,7 @@ nav > .social-nav {
 .p-box-container {
     font-weight: 200;
     font-size: 20px;
+    margin-top: 25px;
     display: flex;
     text-decoration: none;
     flex-direction: row;
@@ -313,9 +316,11 @@ nav > .social-nav {
 
 #p1 {
     position: relative;
-    background-size: contain;
     color: white;
     z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url(Refactor-screenshot.jpg);
 }
 
@@ -323,7 +328,9 @@ nav > .social-nav {
     content: "";
     color: white;
     position: absolute;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     cursor: grab;
     top: 0;
     left: 0;
@@ -340,14 +347,18 @@ nav > .social-nav {
     color: white;
     background-image: url(Prework-screenshot.png);
     z-index: 1; 
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #p2:hover::before {
     content: "";
     position: absolute;
     cursor: grab;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     top: 0;
     left: 0;
     right: 0;
