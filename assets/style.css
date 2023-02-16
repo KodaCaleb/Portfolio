@@ -201,11 +201,13 @@ nav > .social-nav {
 /* bio page styles */
 
 .bio-page{
+
     height: 70vh;
     position: static;
     display: flex;
     flex-direction: row-reverse;
-    padding: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
 
 }
 
@@ -244,10 +246,10 @@ nav > .social-nav {
 /* education page styles */
 
 .education-page {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
-    padding: 100px;
+    padding-left: 100px;
     justify-content: flex-start;
 }
 
@@ -261,7 +263,7 @@ nav > .social-nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
+    height: 50vh;
     border-radius: 25px;
     
 }
@@ -427,4 +429,11 @@ footer {
         align-items: center;
 
     }
+}
+
+.fade {
+    color: rgb(85,26,139);
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 0.5s ease;
 }
