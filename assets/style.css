@@ -449,6 +449,7 @@ footer {
 
     }   
     .bio-page{
+        height: 100vh;
         justify-content: center;
         padding-right: 0;
 
@@ -458,6 +459,7 @@ footer {
     }
 
     .education-page{
+        height: 100vh;
         justify-content: center;
         padding-right: 0;
         padding-left: 0;
