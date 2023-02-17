@@ -236,6 +236,7 @@ nav > .social-nav {
 .about-me-text {
     color: rgb(85,26,139);
     display: flex;
+    height: 50px;
     flex-wrap: wrap;
     padding-right: 20px;
     padding-left: 20px;
@@ -246,7 +247,7 @@ nav > .social-nav {
 /* education page styles */
 
 .education-page {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     padding-left: 100px;
@@ -418,10 +419,17 @@ footer {
 
 /* media q's  */
 
-@media screen and (max-width: 800px) {
-    
-    
 
+
+/* @media screen and (max-width: 800px) {
+    
+    .bio-page{
+        height: 150vw;
+        justify-content: center;
+    }
+    .education-page{
+        height: 100vw;
+    }
     .p-box-container {
         display: flex;
         flex-direction: column;
@@ -429,7 +437,47 @@ footer {
         align-items: center;
 
     }
+} */
+
+@media screen and (max-width:768px){
+
+    .p-box-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }   
+    .bio-page{
+        height: 100vh;
+        justify-content: center;
+        padding-right: 0;
+
+    }
+    .about-me-box{
+        width: 80vw;
+    }
+
+    .education-page{
+        height: 100vh;
+        justify-content: center;
+        padding-right: 0;
+        padding-left: 0;
+        
+    }
+
+    .education-box{
+        width: 80vw;
+    }
+
+    .project-box{
+        height: 20vh;
+        width: 20vw;
+    }
+
 }
+
+/* javascript animation for page scroll */
 
 .fade {
     color: rgb(85,26,139);
