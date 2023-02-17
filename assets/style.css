@@ -133,15 +133,6 @@ nav > .social-nav {
     text-shadow: 2px 2px 8px #74747494;
 }
 
-.toon-head {
-    display: flex;
-    justify-content: flex-end;
-    /* transform: translate(-10%, -10%); */
-    position: static;
-    align-content: center;
-    flex-wrap: wrap;
-
-}
 
 .toon-head img{
     height: 500px;
@@ -419,40 +410,39 @@ footer {
 
 /* media q's  */
 
-
-
-/* @media screen and (max-width: 800px) {
-    
-    .bio-page{
-        height: 150vw;
-        justify-content: center;
-    }
-    .education-page{
-        height: 100vw;
-    }
-    .p-box-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-} */
-
 @media screen and (max-width:768px){
 
+    
+    .title-page{
+        width: 100vw;   
+    }
+
+    .title-card{
+        text-align: center;
+    }
+
+    .toon-head img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 100px;
+        padding: 0;
+        align-content: center;
+        height: 300px;
+        width: 300px;
+    }
+
     .p-box-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }   
     .bio-page{
         height: 100vh;
         justify-content: center;
         padding-right: 0;
-
     }
     .about-me-box{
         width: 80vw;
@@ -462,8 +452,7 @@ footer {
         height: 100vh;
         justify-content: center;
         padding-right: 0;
-        padding-left: 0;
-        
+        padding-left: 0;    
     }
 
     .education-box{
