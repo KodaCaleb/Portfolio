@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(245,245,245);
+    background-color: rgb(245, 245, 245);
     overflow-x: hidden;
     /* padding: 2%; */
 }
@@ -149,7 +149,7 @@ nav > .social-nav {
     color: rgb(255, 196, 0);
 }
 
-#l3 {
+#l2, #l4 {
     color: rgb(255, 0, 0);
 }
 
@@ -157,7 +157,7 @@ nav > .social-nav {
     color: yellowgreen;
 }
 
-#l7 {
+#l6 {
     color:rgb(5, 180, 255);
     
 }
@@ -214,6 +214,10 @@ nav > .social-nav {
     transform: translatey(20%);
 }
 
+.about-me-box h1{
+    font-size: 25px;
+}
+
 #about-me-title {
     color: rgb(85,26,139);
     display: flex;
@@ -245,6 +249,10 @@ nav > .social-nav {
     justify-content: flex-start;
 }
 
+.education-page h1{
+    font-size: 25px;
+}
+
 
 .education-box {
     font-family: 'Roboto', sans-serif;
@@ -271,6 +279,10 @@ nav > .social-nav {
     justify-content: flex-start;
     flex-direction: column;
     
+}
+
+.projects-page h1{
+    font-size: 25px;
 }
 
 .project-box {
@@ -429,8 +441,8 @@ footer {
         border-radius: 100px;
         padding: 0;
         align-content: center;
-        height: 300px;
-        width: 300px;
+        height: 400px;
+        width: 400px;
     }
 
     .p-box-container {
@@ -438,6 +450,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
     }   
     .bio-page{
         height: 100vh;
@@ -459,9 +473,15 @@ footer {
         width: 80vw;
     }
 
+    .projects-page{
+        height: 70%;
+        justify-content: center;
+        display: flex;
+        
+    }
     .project-box{
-        height: 20vh;
-        width: 20vw;
+        height: 40vh;
+        width: 75vw;
     }
 
 }
