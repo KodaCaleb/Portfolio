@@ -351,7 +351,7 @@ nav > .social-nav {
     position: relative;
     font-weight: 200;
     color: white;
-    background-image: url(Prework-screenshot.png);
+    background-image: url(booknborrow.jpg);
     z-index: 1; 
     background-position: center;
     background-size: cover;
@@ -369,7 +369,7 @@ nav > .social-nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(Prework-screenshot.png);
+    background-image: url(booknborrow.jpg);
     filter: blur(5px);
     z-index: -1;
 }
